@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+    <body>
+        <div class="area">
+            <form id="weatherForm">
+                <input type="text" id="city" placeholder="Enter City Name ...">
+                <button id="search" type="submit">Search</button>
+                <br>
+                <input type="radio" id="infar" name="one" value="fahrenheit">
+                <label for="infar">Celsius -> Fahrenheit</label>
+                <br>
+                <input type="radio" id="inces" name="one" value="celsius">
+                <label for="inces">Fahrenheit -> Celsius</label>
+            </form>
+        </div>
+        <div class="report" style="display: none;">
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
